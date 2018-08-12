@@ -1,17 +1,8 @@
 // @flow
 
 import React from 'react'
-import SelectedText from "./selectedText";
-
-const store = {
-    choices: {
-        one: {text: 'One!', value: 'one'},
-        two: {text: 'Two!', value: 'two'},
-        three: {text: 'Three!', value: 'three'},
-    },
-    selected: 'two',
-};
+import MyCounter from "./counter";
 
 export default () => (
-    <SelectedText {...store}/>
+    <MyCounter countInit="3"/>
 );

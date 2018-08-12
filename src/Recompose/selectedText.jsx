@@ -1,8 +1,8 @@
 //@flow
 
-import React from 'react'
-import {compose} from 'recompose'
-import {withSelectedText} from './formUtils'
+import React from 'react';
+import {compose} from 'recompose';
+import {withSelectedText} from './formUtils';
 
 type Props = {
   selectedText: string,
